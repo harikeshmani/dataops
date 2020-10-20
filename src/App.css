@@ -1,0 +1,162 @@
+@import './styles/ToDoAppStyles.css';
+@import './styles/TaskLists.css';
+@import './styles/Weather.css';
+
+.has-border{
+  border: 1px solid gray;
+}
+
+.center-text{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-div{
+  background-color: rgb(30, 30, 30);
+  color: rgb(200, 200, 200);
+}
+
+.header{
+  height: 4em;
+  background-color: rgb(70, 70, 70);
+  color: rgb(148, 204, 228);
+  display: flex;
+  flex-direction: row;
+  padding-left: 0.5em;
+}
+
+.header-left-part{
+  width: 20%;
+  font-size: 35px;
+}
+
+.header-right-part{
+  width: 80%;
+  font-size: 25px;
+}
+
+.body{
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.side-nav{
+  width: 20%;
+}
+
+.side-nav-button{
+  margin: 1em 0;
+  height: 2em;
+  background-color: rgb(70, 70, 70);
+  cursor: pointer;
+}
+
+.side-nav-button:hover{
+  background-color: gray;
+}
+
+.main-body{
+  width: 80%;
+}
+
+.main-content{
+  margin-left: 1em;
+  height: 100%;
+}
+
+.main-content-header{
+  color: red;
+  font-size: 28px;
+  padding: 0.5em 0;
+  border-radius: 5em;
+}
+
+.img-container-flex{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.img-container{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+  transform:scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.img-container button{
+  margin-top: 0.5em;
+  background-color: teal;
+  color: white;
+  border: 2px solid teal;
+  border-radius: 3px;
+}
+
+.img-container:hover img{
+  transform:scale(1.45);
+  transition: all 0.7s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sub-header{
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(200, 200, 200);
+  margin-top: 1em;
+}
+
+.paragraph-content{
+  background-color: rgb(100, 100, 100);
+  color: black;
+  text-align: justify;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.footer{
+  height: 5em;
+  background-color: rgb(70, 70, 70);
+}
+
+.common-button {
+  margin: 1em 1em 0 0;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: green;
+  border: 2px solid green;
+}
+
+.secondary {
+  background-color: gray;
+  border: 2px solid gray;
+}
+
+.danger {
+  background-color: red;
+  border: 2px solid red;
+}
+
+.warning {
+  background-color: orange;
+  border: 2px solid orange;
+}
+
+.theme-color {
+  background-color: teal;
+  border: 2px solid teal;
+}
+
+
